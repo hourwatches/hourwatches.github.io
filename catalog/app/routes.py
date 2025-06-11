@@ -7,7 +7,7 @@ def home():
 
 @app.route('/catalog')
 def catalog():
-	return "Placeholder for Watches"
+	return render_template('catalog.html')
 
 @app.route('/jewelry')
 def jewelry():
